@@ -1,5 +1,18 @@
 ![logo](https://avatars0.githubusercontent.com/u/7002937?v=3&s=200)
 
+# Important Note
+The original code is from [WorldFamousElectronics](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino). I've just modified it to work with Teensy v3.2, mainly adding "Timer" to control the interrupts. In theory, this code should work fine with Teensy v3.1/3.0 however I've not tried yet.
+
+Demo video: https://www.youtube.com/watch?v=_h_uFRIzZH4
+
+I'm using this [PulseSensor app](https://itunes.apple.com/us/app/pulse-sensor/id974284569?mt=12) for reading and calculating the BPM from the USB serial port from teensy board.
+
+This is the board layout:
+
+![screenshot](https://github.com/stevenvo/PulseSensor_Teensy3.2/raw/master/pics/IMG_0191_1.jpg)
+
+
+
 ## Pulse Sensor Arduino Code
 1. Blinks an LED to User's Live Heartbeat   
 2. Fades an LED to User's Live HeartBeat
