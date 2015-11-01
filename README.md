@@ -7,11 +7,11 @@ Demo video: https://www.youtube.com/watch?v=_h_uFRIzZH4
 
 I'm using this [PulseSensor app](https://itunes.apple.com/us/app/pulse-sensor/id974284569?mt=12) for reading and calculating the BPM from the USB serial port from teensy board.
 
-This is the board layout:
+This is what the board layout looks like:
 
 ![screenshot](https://github.com/stevenvo/PulseSensor_Teensy3.2/raw/master/pics/IMG_0191_1.jpg)
 
-
+# Original README Content
 
 ## Pulse Sensor Arduino Code
 1. Blinks an LED to User's Live Heartbeat   
